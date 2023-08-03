@@ -1,0 +1,67 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    
+    background: linear-gradient(to right bottom, rgb(210, 19, 108), rgb(98, 24, 207) );
+
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+
+.container1 {
+    height: 300px;
+    width: 500px;
+    background-color: rgb(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 7px 7px inset rgb(142, 15, 232);
+
+    padding: 20px;
+
+
+
+}
+
+
+.heading {
+    
+    padding-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: -2px -2px white;
+    font-size: 40px;
+}
+
+.joke {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+
+.btn {
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:rgb(142, 15, 232);
+    color: white;
+
+}
+
+.btn:hover {
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(152, 15, 232);
+    color: white;
+
+}
+</style>
